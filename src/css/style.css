@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap');
+
+* {
+  font-family: 'Gentium Book Basic', serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.title {
+  position: relative;
+  background-color: #6e3098;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.title a {
+  color: white;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: black;
+  text-shadow: 1px 1px red;
+}
+
+.question {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.questionCard {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.answerBtn {
+  position: relative;
+  padding: 10px;
+  background-color: #ecc23c;
+  display: inline-block;
+  margin: 10px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.answerBtn:hover {
+  background-color: #6e3098;
+  color: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.score-board {
+  position: relative;
+  height: 700px;
+}
+
+.score {
+  position: absolute;
+  width: 1024px;
+  font-size: 3em;
+  top: 250px;
+  text-align: center;
+}
+
+.playBtn {
+  position: absolute;
+  font-size: 1.4em;
+  padding: 10px;
+  top: 350px;
+  background-color: #ecc23c;
+  color: #000000;
+  width: 150px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.playBtn:hover {
+  background-color: #6e3098;
+  color: #ffffff;
+}
+
+.warning {
+  color: #ee4266;
+  background-color: #d99ac5;
+  padding-bottom: 5px;
+  padding-right: 35px;
+  text-align: center;
+}
+
+.warning ol li {
+  background-color: #ee4266;
+  color: black;
+  list-style: none;
+}
+
+.warning p {
+  font-size: 20px;
+}
