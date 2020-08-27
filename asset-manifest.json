@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bca-mcq/static/css/main.951da8b4.chunk.css",
+    "main.js": "/bca-mcq/static/js/main.4a209eff.chunk.js",
+    "main.js.map": "/bca-mcq/static/js/main.4a209eff.chunk.js.map",
+    "runtime-main.js": "/bca-mcq/static/js/runtime-main.9f9c1e19.js",
+    "runtime-main.js.map": "/bca-mcq/static/js/runtime-main.9f9c1e19.js.map",
+    "static/js/2.200a21ea.chunk.js": "/bca-mcq/static/js/2.200a21ea.chunk.js",
+    "static/js/2.200a21ea.chunk.js.map": "/bca-mcq/static/js/2.200a21ea.chunk.js.map",
+    "index.html": "/bca-mcq/index.html",
+    "precache-manifest.a3547d3aef04c622be2276019a805bed.js": "/bca-mcq/precache-manifest.a3547d3aef04c622be2276019a805bed.js",
+    "service-worker.js": "/bca-mcq/service-worker.js",
+    "static/css/main.951da8b4.chunk.css.map": "/bca-mcq/static/css/main.951da8b4.chunk.css.map",
+    "static/js/2.200a21ea.chunk.js.LICENSE.txt": "/bca-mcq/static/js/2.200a21ea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f9c1e19.js",
+    "static/js/2.200a21ea.chunk.js",
+    "static/css/main.951da8b4.chunk.css",
+    "static/js/main.4a209eff.chunk.js"
+  ]
+}
