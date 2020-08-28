@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c10d26be83b9405f369d5bbf31d0198b",
+    "revision": "b80f0f811bf465458b540cb682f33500",
     "url": "/bca-mcq/index.html"
   },
   {
-    "revision": "67469447854ac3526a43",
-    "url": "/bca-mcq/static/css/main.951da8b4.chunk.css"
+    "revision": "d89e5958392d2bb4dcf5",
+    "url": "/bca-mcq/static/css/main.279b5970.chunk.css"
   },
   {
     "revision": "71a2ab97a6258c97f967",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bca-mcq/static/js/2.200a21ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "67469447854ac3526a43",
+    "revision": "d89e5958392d2bb4dcf5",
     "url": "/bca-mcq/static/js/main.4a209eff.chunk.js"
   },
   {
