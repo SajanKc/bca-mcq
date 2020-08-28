@@ -58,8 +58,9 @@ export default class App extends Component {
                     this.state.questionBank.length > 0 &&
                     this.state.responses < 10 &&
                     this.state.questionBank.map(
-                        ({ questionId, question, answers, correct }) =>
+                        ({ questionId, question, answers, correct }, index) =>
                             <QuestionCard
+                                counter={index}
                                 question={question}
                                 options={answers}
                                 key={questionId}

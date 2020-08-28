@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const QuestionBox = ({ question, options, selected }) => {
+const QuestionBox = ({ question, options, selected, counter }) => {
   // suffle the answer
   for (let i = options.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * i)
@@ -12,7 +12,7 @@ const QuestionBox = ({ question, options, selected }) => {
   const [answer, setAnswer] = useState(options);
   return (
     <div className="questionCard">
-      <div className="question"><h2>{question}</h2></div>
+      <div className="question"><h2>{counter + 1}. {question}</h2></div>
       {answer.map((text, index) => (
         <button
           key={index}
