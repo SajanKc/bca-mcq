@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './css/style.css';
-import questionData from './QuestionService/QuestionData'
+import QuestionData from './QuestionService/QuestionData'
 import QuestionCard from './components/QuestionCard';
 import Result from './components/Result';
 import { Warning } from './components/Warning';
@@ -14,14 +14,14 @@ export default class App extends Component {
         submit: false
     };
 
-    toggler = () => {
-        this.setState({
-            submit: true
-        });
-    };
+    // toggler = () => {
+    //     this.setState({
+    //         submit: true
+    //     });
+    // };
 
     getQuestions = () => {
-        questionData().then(question => {
+        QuestionData().then(question => {
             this.setState({
                 questionBank: question
             });
@@ -75,8 +75,9 @@ export default class App extends Component {
                             />
                     )
                 }
-                <button className="answerBtn" onClick={this.toggler} >Submit</button>
+                {/* <button className="answerBtn" onClick={this.toggler}>Submit</button> */}
                 {this.state.responses === 10 ? (<Result score={this.state.score} playAgain={this.playAgain} />) : null}
+                {/* {this.state.submit || this.state.responses === 10 ? (<Result score={this.state.score} playAgain={this.playAgain} />) : null} */}
             </div>
         );
     }
