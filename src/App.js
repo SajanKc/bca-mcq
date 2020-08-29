@@ -10,7 +10,14 @@ export default class App extends Component {
     state = {
         questionBank: [],
         score: 0,
-        responses: 0
+        responses: 0,
+        submit: false
+    };
+
+    toggler = () => {
+        this.setState({
+            submit: true
+        });
     };
 
     getQuestions = () => {
@@ -39,8 +46,8 @@ export default class App extends Component {
         this.setState({
             score: 0,
             responses: 0
-        })
-    }
+        });
+    };
 
     componentDidMount() {
         this.getQuestions();
@@ -68,6 +75,7 @@ export default class App extends Component {
                             />
                     )
                 }
+                <button className="answerBtn" onClick={this.toggler} >Submit</button>
                 {this.state.responses === 10 ? (<Result score={this.state.score} playAgain={this.playAgain} />) : null}
             </div>
         );
